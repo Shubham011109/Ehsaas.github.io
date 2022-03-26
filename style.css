@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.imagefirst {
+    height: 480px;
+    width: 1000px;
+    
+}
+
+.namehead {
+    margin-right: auto;
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: White;
+}
+
+.nameheadlines {
+    margin-left: auto;
+
+}
+
+.marginfromtop {
+    margin-top: 5px;
+}
+
+.firstbgcontainer {
+    background-color: #000000;
+    padding:100px;
+
+}
+
+.secondbgcontainer {
+    background-color: #2a302f;
+    font-family: caveat;
+    color:white;
+    }
+
+.textcontentstudy{
+    background-color: #2a302f;
+    font-family:serif;
+    color:white;
+    font-size: 50px;
+    text-decoration:none;
+
+} 
+
+.buttontextcontent{
+    margin: 15px;
+    background-color: #e5e594;
+    width: 150px;
+    font-size: 15px;
+    
+}
+
+
+
+.thirdbgcontainer {
+    background-color: #98caae;
+}
+
+.fourthbgcontainer {
+    background-color: #90a7a7;
+}
+
+.containerbutton {
+    text-align: center;
+}
+
+.treesicon {
+    height: 10px;
+    width: 10px;
+}
+
+.Buttonfood {
+    font-size: 30px;
+    margin: 5px;
+    color: #4a4e82;
+
+}
+
+.navbarcolor {
+    background-color: #4a4e82;
+}
+
+.icon1 {
+    font-size: 30px;
+    color: #00f7ff;
+    border-width: 10px;
+    border-color: black;
+    margin: 10px;
+}
+
+.heading1 {
+    font-size: 18px;
+    margin-top: 10px;
+    /* text-decoration: underline; */
+    word-spacing: 8px;
+    line-height: 2.1em
+}
+
+.foodsection {
+    margin-top: 50px;
+
+}
+
+.imageofbgfood {
+    background-color: black;
+    background-size: cover;
+}
+
+.imagestudy {
+    height: 380px;
+    width: 180px;
+    border-color: transparent;
+    margin: 10px;
+    padding-top: 50px;
+
+}
+
+
+.imagefood {
+    height: 430px;
+    width: 180px;
+    border-color: transparent;
+    margin: 10px;
+}
+
+.textcontentheadline {
+    background-color: #a9a9a9;
+    height: 70px;
+    width: 220px;
+    background-size: cover;
+
+}
+
+.textmargin {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonbgcolor {
+    background-color: #e5e594;
+    width: 100px;
+    font-family: roboto;
+    margin: 5px;
+}
+
+.foodcotainer {
+    text-align: center;
+    margin: 15px;
+}
+
+.foodmainimage {
+    height: 200px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+.imagebgcolor {
+    background-color: black
+}
+
+.second2food {
+    background-color: black;
+
+}
+
+.connectwithbg {
+    background-color: #e5e594;
+    font-size: 20px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.para {
+    color: white;
+}
+
+.buttonsubmit {
+    margin: 15px;
+    background-color: #e5e594;
+}
+
+.buttonback {
+    margin: 15px;
+    background-color: #e5e594;
+    width: 70px;
+}
+
+.iconfb {
+    color: blue;
+}
+
+.icontwitter {
+    color: #00a7ff;
+}
+
+.missioncontainer {
+    background-color: #95e278;
+
+}
+
+.missionstudycolor {
+    background-color: black;
+}
+
+.carasoul {
+    font-size: 20px;
+}
+
+.imagesponsors {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.sponsorhead {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.sponsorcontainer {
+    text-align: center;
+}
+
+.containerstudyimage {
+    background-image: url(https://th.bing.com/th/id/R.fbb1e65ffc3a8f7297af01637001ba59?rik=0wFM8iSZWlz2TQ&riu=http%3a%2f%2fwww.foreignstudents.com%2fsites%2fdefault%2ffiles%2fstudentcandlelight.jpg&ehk=uXX5GVDBzLliNCp22V%2bE7H9WpOs9DsYqjsJdX7PLqkk%3d&risl=&pid=ImgRaw&r=0);
+    height: 60vw;
+    width: 10vw;
+    background-size: cover;
+}
+
+.containerimage {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/bddeaf13899615.Y3JvcCwzMDA3LDIzNTMsMCw1NjQ.jpg);
+}
+
+.headtree {
+    color: white;
+}
+
+.imagetree {
+    width: 90vw;
+    height: 300px;
+    background-size: cover;
+}
+
+.planttreehead {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.securewaterhead {
+    font-size: 15px;
+}
+
+.worldhead {
+    font-family: roboto;
+}
+
+.waterhead {
+    background-color: black;
+    color: white;
+    font-family: roboto;
+}
+
+.list-container {
+    background-color: black;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.listhead {
+    padding: 5px;
+    color: white;
+    margin-right: 25px;
+}
+
+.areahead {
+    color: white;
+}
+
+.savewater {
+    padding: 45px;
+    color: white;
+}
+
+
+.foodsectioncara{
+    background-color: #000000;
+}
+
+

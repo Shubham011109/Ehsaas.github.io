@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sectionwater">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navbarcolor">
+            <a href="home.html"> <i class="fas fa-balance-scale icon1" onclick='display("sectionhome")'></i></a>
+            <p class="namehead" onclick='display("sectionhome")'>Ehsaas</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nameheadlines">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('sectionhome')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick='display("sectionfood")'>Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick='display("sectionstudy")'>Child study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick='display("sectiontree")'>Plant a tree</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick='display("sectionwater")'>Save water</a>
+                    </li>
+    
+    
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid foodsection">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h1 class="securewaterhead mt-5">Your guide to secure water</h1>
+                    <div class="d-flex flex-row">
+                        <h1 class="mt-3 worldhead">World</h1>
+                        <h1 class="mt-3 waterhead">Water</h1>
+                        <h1 class="mt-3 worldhead">Reserve</h1>
+                    </div>
+                    <ul class="list-container">
+                        <div class="d-flex flex-row">
+                            <div class="listhead">
+                                <li>Water</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Food</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Energy</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Refuge</li>
+                            </div>
+                        </div>
+                    </ul>
+
+
+                </div>
+                <hr>
+                <div class="row second2food">
+
+                    <div class="col-12 col-md-6">
+
+                        <img src="https://res.cloudinary.com/dccc2yce7/image/upload/v1646276197/clean-water-charities-864x532_jvlbrf.webp" class="imagetree" />
+                    </div>
+                    <ul class="d-md-block">
+                        <li class="areahead">Location: Delhi, India</li>
+                        <li class="areahead">Areas active: Asia, Africa, South America</li>
+                        <li class="areahead">Year established: 2019</li>
+                    </ul>
+                    <div class="savewater">
+                        <p>Ehsaas is an NGO aimed at providing clean and safe water to people living in developed countries. This organization prides itself on transparency; funds received through donations are used to sponsor safe water projects. In addition, all projects are proven via the use of photos and GPS, making it possible for donors to see how their money is being spent. Their mission is not only to solve the water crisis in developing countries but to reinvent charity. With approximately 28,389 water projects in about 26 developing countries, Ehsaas has provided safe and clean water to over 8 million people.</p>
+                    </div>
+                    <div class="col-12 col-md-6 missionstudycolor ">
+
+                        <div class="d-flex flex-column">
+                            <div>
+                                <h1 class="connectwithbg">Connect With Us</h1>
+                                <p class="para">Your Name</p><input type="text" />
+                                <p class="para">Your Email Id</p><input type="text" />
+                                <p class="para">Mobile No.</p><input type="text" />
+                                <p class="para">Your Message</p><input type="text" />
+
+
+                            </div>
+                            <div class="d-flex flex-row">
+                                <a href="home.html">  <button class="buttonback" onclick="display('sectionhome')">Back</button></a>
+                                <button class="buttonsubmit" onclick="thanks()">Submit</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12">
+                    <p id="para"></p>
+                    <p id="para2">Choose your payment Mode.</p>
+                    <div class="d-flex flex-row">
+                        <div class="containerbutton" id="back">
+                            <i class="fab fa-amazon-pay"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="far fa-credit-card"></i>
+                            <i class="fab fa-bitcoin"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Follow us on</p>
+                <div class="d-flex flex-row">
+                    <div class="containerbutton" id="back">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook iconfb"></i>
+                        <i class="fab fa-twitter icontwitter"></i>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    
+
+
+
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
