@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbarcolor">
+        <a href="home.html"><i class="fas fa-balance-scale icon1" onclick='display("sectionhome")'></i></a>
+        <p class="namehead" onclick='display("sectionhome")'>Ehsaas</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nameheadlines">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="display('sectionhome')">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick='display("sectionfood")'>Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick='display("sectionstudy")'>Child study</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick='display("sectiontree")'>Plant a tree</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick='display("sectionwater")'>Save water</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <div id="sectionhome">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-12 firstbgcontainer">
+                    
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active d-flex flex-row justify-content-center">
+                                <img src="../static/food.jpg" class="d-block imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item d-flex flex-row justify-content-center">
+                                <img src="../static/study.jpg" class="d-block imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item d-flex flex-row justify-content-center">
+                                <img src="../static/tree.jpg" class="d-block imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item d-flex flex-row justify-content-center">
+                                <img src="../static/water.jpg" class="d-block imagefirst" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <div class="containerbutton">
+                            <i class="fas fa-donate Buttonfood" onclick='display("sectionfood")'></i>
+
+                            <p>A small donation of US $1 or Rs.50 per day can help feed a hungry child for a year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-3 thirdbgcontainer pt-4">
+                        <p class="heading1 pt-5">Two years ago, the imposition of the national lockdown in India had disastrous consequences for the working poor, especially the migrant labour. In October 2020, The Right to Food Campaign and associated organisations had conducted the first Hunger Watch survey (HW-I).
+                            <br/>
+                            
+                            </p> 
+                            <a href="food.html"> <button class="buttontextcontent" onclick="display('sectiontree')">Click here</button></a>
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="col-12 col-sm-9 thirdbgcontainer">
+                        <h1 class="heading1">Food for needy</h1>
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../static/foodforhungry.jpg" class="d-block w-100 imagefirst" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../static/foodforhungry2.jpg" class="d-block w-100 imagefirst" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../static/foodforhungry3.jpg" class="d-block w-100 imagefirst" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <div class="containerbutton">
+                                <i class="fab fa-pagelines treesicon" onclick="display('sectiontree')"></i>
+    
+                                <p>Building a green future</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+
+
+
+
+
+              
+                    
+                    <div class="col-12 col-sm-9 secondbgcontainer">
+                    <h1 class="heading1">Every child has a right to study.</h1>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://i.pinimg.com/originals/79/a1/7f/79a17f3991cbf1b5365e01ef1c2d3934.jpg" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.toowoombagardens.qld.edu.au/wp-content/uploads/2019/07/auslan-768x768.jpg" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/43/5d/06/435d06485a32eff2f3a632cfe27a5c4d.jpg" class="d-block w-100  imagefirst" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <div class="containerbutton">
+                            <i class="fas fa-book-open" onclick="display('sectionstudy')"></i>
+
+                            <p>Join hands to provide education to less privileged children</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 textcontentstudy pt-4">
+                    <p class="heading1 pt-5">Early Moments Matter for every child, UNICEF’s new global report on 
+                        early childhood development, shows that the period from conception to 
+                        the start of school opens a critical and singular window of opportunity 
+                        to shape the development of a child’s brain.
+                        For millions of the world’s most disadvantaged children, we are missing this 
+                        window of opportunity<br/>
+                        
+                        </p> 
+                        <a href="study.html"><button class="buttontextcontent" onclick="display('sectionstudy')">Click here</button></a>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-3 thirdbgcontainer pt-4">
+                    <p class="heading1 pt-5">Trees help clean the air we breathe, filter the water we drink, and provide habitat to over 80% of the world's terrestrial biodiversity.
+                        Forests provide jobs to over 1.6 billion people, absorb harmful carbon from the atmosphere, and are key ingredients in 25% of all medicines. Have you ever taken an Aspirin? It comes from the bark of a tree!
+                        <br/>
+                        
+                        </p> 
+                        <a href="tree.html"> <button class="buttontextcontent" onclick="display('sectiontree')">Click here</button></a>
+                </div>
+
+
+
+
+
+                <div class="col-12 col-sm-9 thirdbgcontainer">
+                    <h1 class="heading1">Plant your tree</h1>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://im.indiatimes.in/media/content/2019/Oct/grow_trees_1571916157_725x725.jpg" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://static.wixstatic.com/media/8c95bf_db16bc22dd3840febd28059b25366032~mv2.jpg/v1/fill/w_882,h_560,al_c,q_85,usm_0.66_1.00_0.01/8c95bf_db16bc22dd3840febd28059b25366032~mv2.jpg" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://goodmenproject.com/wp-content/uploads/2020/10/shutterstock_10719627471.jpg" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                        <div class="containerbutton">
+                            <i class="fab fa-pagelines treesicon" onclick="display('sectiontree')"></i>
+
+                            <p>Building a green future</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-sm-9 fourthbgcontainer">
+                    <h1 class="heading1">Save Water, Share Water</h1>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://th.bing.com/th/id/OIP.KIu9DWzm-xEOrCSPnoVu7wHaEH?pid=ImgDet&rs=1" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/83/77/81/8377814a57959d94cbf1f30c34a05ee5.png" class="d-block w-100 imagefirst" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/OIP.Kefww2zaTw8in04_m26WdgHaE7?pid=ImgDet&rs=1" class="d-block w-100  imagefirst" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <div class="containerbutton">
+                            <i class="fas fa-hand-holding-water" onclick="display('sectionwater')"></i>
+
+                            <p>Our Programs & Initiatives to realize the Vision of A Water & Sanitation Secure, Clean & Healthy World Are…</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 fourthbgcontainer pt-4">
+                    <p class="heading1 pt-3">Water is the single most important resource on the planet that we live on, and that is why it is essential that we conserve it. Water is the basic necessity for all living beings, and it is incredibly important to conserve it. It is not only important for living and breathing things, but also for many inanimate objects that humans create. It is essential to conserve and save water for ourselves and the entire planet.
+                        <br/>
+                        
+                        </p> 
+                        <a href="water.html"><button class="buttontextcontent" onclick="display('sectionwater')">Click here</button></a>
+
+
+
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div id="sectionfood">
+
+        <div class="container-fluid foodsection">
+            <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1 imageofbgfood d-flex flex-column justify-content-center ">
+                    <h1 class="textcontentheadline textmargin">Help those in extreme poverty</h1>
+                </div>
+
+                <div class="col-12 col-md-6 imagebgcolor order-1 order-md-2">
+                    <img src="https://news.cgtn.com/news/79596a4e7a517a4e79676a4e7955544d316b7a4e31457a6333566d54/img/719a6ac9939543898cb47fc9030658db/719a6ac9939543898cb47fc9030658db-2.jpg" class="d-block w-100 imagefood" />
+                </div>
+
+            </div>
+
+            <div class="row second2food">
+                <div class="col-12 col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://th.bing.com/th/id/OIP.8_yYca_SFItuueNtEVwoDQHaEL?pid=ImgDet&rs=1" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/OIP.y4P0CtJCu5lC7x4BDLTifgHaDt?pid=ImgDet&rs=1" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.newsallbd.com/wp-content/uploads/2020/05/Indian-NGOs-focused-on-feeding-people-list-of-Indian.jpg" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+
+                    <div class="d-flex flex-column">
+                        <div>
+                            <h1 class="connectwithbg">Connect With Us</h1>
+                            <p class="para">Your Name</p><input type="text" />
+                            <p class="para">Your Email Id</p><input type="text" />
+                            <p class="para">Mobile No.</p><input type="text" />
+                            <p class="para">Your Message</p><input type="text" />
+                        </div>
+                        <div class="d-flex flex-row">
+                            <a href="home.html"><button class="buttonback" onclick="display('sectionhome')">Back</button></a>
+                            <button class="buttonsubmit" onclick="thanks()">Submit</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <p id="para"></p>
+            <p id="para2">Choose your payment Mode.</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-amazon-pay"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="far fa-credit-card"></i>
+                    <i class="fab fa-bitcoin"></i>
+                </div>
+            </div>
+            <p>Follow us on</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook iconfb"></i>
+                    <i class="fab fa-twitter icontwitter"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionstudy">
+
+        <div class="container-fluid foodsection">
+            <div class="row">
+                <div class="col-12 imagebgcolor order-1">
+                    <img src="https://media.gettyimages.com/photos/studying-for-a-bright-future-picture-id925644808?s=2048x2048" class="d-block w-100 imagefood" />
+                </div>
+                <div class="col-12 imagebgcolor order-2 containerstudyimage">
+                    <h1 class="mt-3 headtree">Mission Study</h1>
+                    <p class="mt-3 headtree">Since 2016, we have been actively involved in providing quality education for students that some or by other means are not able to afford quality education. The real reason why India is behind is because of the lack of quality education.</p>
+                </div>
+
+            </div>
+
+
+            <div class="row second2food pt-5">
+                <div class="col-12 col-md-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://media.gettyimages.com/photos/school-girl-stock-photo-picture-id1287691999?s=2048x2048" class="d-block w-100 imagestudy" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Education for all</h5>
+                                    <p>Every child has the right to study and we are on a mission to provide high class education to each and every child who cannot afford to study.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.gettyimages.com/photos/portrait-of-south-african-girls-in-a-rural-transkei-classroom-picture-id182061753?s=2048x2048" class="d-block w-100 imagestudy" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Quality Education</h5>
+                                    <p>With such great faculty and teaching methodologies, the environment provided to a child is well in good. All aimed to transform their lives into a better one.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.gettyimages.com/photos/kid-reading-near-locked-door-picture-id910384920?s=2048x2048" class="d-block w-100 imagestudy" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Scholarship</h5>
+                                    <p>We are dedicated towards providing quality education to the kids. With our various programs, we provide different level of scholarship to meritorious</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 missionstudycolor ">
+
+                    <div class="d-flex flex-column">
+                        <div>
+                            <h1 class="connectwithbg">Connect With Us</h1>
+                            <p class="para">Your Name</p><input type="text" />
+                            <p class="para">Your Email Id</p><input type="text" />
+                            <p class="para">Mobile No.</p><input type="text" />
+                            <p class="para">Your Message</p><input type="text" />
+
+
+                        </div>
+                        <div class="d-flex flex-row">
+                            <a href="home.html">  <button class="buttonback" onclick="display('sectionhome')">Back</button></a>
+                            <button class="buttonsubmit" onclick="thanks()">Submit</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <p id="para"></p>
+            <p id="para2">Choose your payment Mode.</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-amazon-pay"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="far fa-credit-card"></i>
+                    <i class="fab fa-bitcoin"></i>
+                </div>
+            </div>
+            <p>Follow us on</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook iconfb"></i>
+                    <i class="fab fa-twitter icontwitter"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id="sectiontree">
+
+        <div class="container-fluid foodsection">
+            <div class="row">
+                <div class="col-12 col-md-6  order-1">
+                    <hr>
+                    <h1 class="mt-3 sponsorhead">Sponsors</h1>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://logosave.com/images/large/19/Philips-1-2-3-4-5-6-7-8-9-10-11-12-logo.png" class="d-block imagesponsors" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://brandingreference.com/brlogos/reliance-logo.png" class="d-block imagesponsors" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" class="d-block imagesponsors" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.gameshastra.com/images/clients-about/microsoft.png" class="d-block imagesponsors" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <hr>
+                    <h1 class="mt-3 sponsorhead">Awards</h1>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://th.bing.com/th/id/OIP.7uw29ZmMLEWwjWEgjmlaRwHaE8?pid=ImgDet&rs=1" class="d-block imagesponsors" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/OIP.cAEi3CRa8FQcui-ad-rL9gHaEJ?pid=ImgDet&rs=1" class="d-block imagesponsors" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.dapplebaby.com/wp-content/uploads/2020/10/Dapple_Social-Media_PC_CLP_02-150x150.jpg" class="d-block imagesponsors" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6 containerimage">
+                    <h1 class="mt-3 headtree">Tree plantation project to save the earth</h1>
+                    <p class="mt-3 headtree">Why tree plantation essential these day</p>
+                    <li class="mt-3 headtree">
+                        Thousands of trees are cut down everyday,so it is essential to plant trees to maintain the balance of the environment
+                    </li>
+                    <li class="mt-3 headtree">
+                        Increasing level of hazardous gases released into the atmosphere due to industiralization
+                    </li>
+                    <li class="mt-3 headtree">
+                        We all know that heat on the earth is increasing day by day.We know the reason damage to the ozone layer in the atmosphere.
+                    </li>
+
+                </div>
+
+            </div>
+            <hr>
+            <h1 class="planttreehead">Plant your tree with easy steps</h1>
+            <div class="row second2food">
+
+                <div class="col-12 col-md-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://th.bing.com/th/id/OIP.7kF1uanz7tS1Cd6yDNoZEwHaEo?pid=ImgDet&rs=1" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/R.6b81e8233c9b13558f43f572a4c9e1e6?rik=ugPk8AFavq38VA&riu=http%3a%2f%2fblogs.covchurch.org%2fdanforth%2fwp-content%2fuploads%2fsites%2f7%2f2018%2f03%2fblog-khula-veggies.jpg&ehk=Hh2AGfTvUmMnFpBhrAY7fI4XnAp58yO7Waqn5cY1h8I%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/R.1776f4013d5f1120a60590b8cdd62e63?rik=mchuLpsQSBnB%2fg&riu=http%3a%2f%2fagritech.tnau.ac.in%2fhrd%2fimages%2fhrdfund_logos%2fNGO.png&ehk=jsb3D8InvyLkuH88WGm3diTDFo%2bLmT87ROGytU3TDFQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="d-block w-100 imagefood" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 missionstudycolor ">
+
+                    <div class="d-flex flex-column">
+                        <div>
+                            <h1 class="connectwithbg">Connect With Us</h1>
+                            <p class="para">Your Name</p><input type="text" />
+                            <p class="para">Your Email Id</p><input type="text" />
+                            <p class="para">Mobile No.</p><input type="text" />
+                            <p class="para">Your Message</p><input type="text" />
+
+
+                        </div>
+                        <div class="d-flex flex-row">
+                            <a href="home.html">   <button class="buttonback" onclick="display('sectionhome')">Back</button></a>
+                            <button class="buttonsubmit" onclick="thanks()">Submit</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <p id="para"></p>
+            <p id="para2">Choose your payment Mode.</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-amazon-pay"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="far fa-credit-card"></i>
+                    <i class="fab fa-bitcoin"></i>
+                </div>
+            </div>
+            <p>Follow us on</p>
+            <div class="d-flex flex-row">
+                <div class="containerbutton" id="back">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook iconfb"></i>
+                    <i class="fab fa-twitter icontwitter"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionwater">
+
+        <div class="container-fluid foodsection">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h1 class="securewaterhead mt-5">Your guide to secure water</h1>
+                    <div class="d-flex flex-row">
+                        <h1 class="mt-3 worldhead">World</h1>
+                        <h1 class="mt-3 waterhead">Water</h1>
+                        <h1 class="mt-3 worldhead">Reserve</h1>
+                    </div>
+                    <ul class="list-container">
+                        <div class="d-flex flex-row">
+                            <div class="listhead">
+                                <li>Water</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Food</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Energy</li>
+                            </div>
+                            <div class="listhead">
+                                <li>Refuge</li>
+                            </div>
+                        </div>
+                    </ul>
+
+
+                </div>
+                <hr>
+                <div class="row second2food">
+
+                    <div class="col-12 col-md-6">
+
+                        <img src="https://res.cloudinary.com/dccc2yce7/image/upload/v1646276197/clean-water-charities-864x532_jvlbrf.webp" class="imagetree" />
+                    </div>
+                    <ul class="d-md-block">
+                        <li class="areahead">Location: Delhi, India</li>
+                        <li class="areahead">Areas active: Asia, Africa, South America</li>
+                        <li class="areahead">Year established: 2019</li>
+                    </ul>
+                    <div class="savewater">
+                        <p>Ehsaas is an NGO aimed at providing clean and safe water to people living in developed countries. This organization prides itself on transparency; funds received through donations are used to sponsor safe water projects. In addition, all projects are proven via the use of photos and GPS, making it possible for donors to see how their money is being spent. Their mission is not only to solve the water crisis in developing countries but to reinvent charity. With approximately 28,389 water projects in about 26 developing countries, Ehsaas has provided safe and clean water to over 8 million people.</p>
+                    </div>
+                    <div class="col-12 col-md-6 missionstudycolor ">
+
+                        <div class="d-flex flex-column">
+                            <div>
+                                <h1 class="connectwithbg">Connect With Us</h1>
+                                <p class="para">Your Name</p><input type="text" />
+                                <p class="para">Your Email Id</p><input type="text" />
+                                <p class="para">Mobile No.</p><input type="text" />
+                                <p class="para">Your Message</p><input type="text" />
+
+
+                            </div>
+                            <div class="d-flex flex-row">
+                                <a href="home.html"><button class="buttonback" onclick="display('sectionhome')">Back</button></a>
+                                <button class="buttonsubmit" onclick="thanks()">Submit</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12">
+                    <p id="para"></p>
+                    <p id="para2">Choose your payment Mode.</p>
+                    <div class="d-flex flex-row">
+                        <div class="containerbutton" id="back">
+                            <i class="fab fa-amazon-pay"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="far fa-credit-card"></i>
+                            <i class="fab fa-bitcoin"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Follow us on</p>
+                <div class="d-flex flex-row">
+                    <div class="containerbutton" id="back">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook iconfb"></i>
+                        <i class="fab fa-twitter icontwitter"></i>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
